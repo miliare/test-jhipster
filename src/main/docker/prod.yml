@@ -1,0 +1,18 @@
+testjhipster-elasticsearch:
+  container_name: testjhipster-elasticsearch
+  image: elasticsearch:1.7.3
+  # volumes:
+  #   - ~/volumes/jhipster/testJHipster/elasticsearch/:/usr/share/elasticsearch/data/
+  ports:
+    - "9200:9200"
+    - "9300:9300"
+testjhipster-postgresql:
+  container_name: testjhipster-postgresql
+  image: postgres:9.4.5
+  # volumes:
+  #   - ~/volumes/jhipster/testJHipster/postgresql/:/var/lib/postgresql/
+  environment:
+    - POSTGRES_USER=testJHipster
+    - POSTGRES_PASSWORD=
+  ports:
+    - "5432:5432"

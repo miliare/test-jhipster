@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "baseName": "testJHipster",
+    "packageName": "org.jhipster.cms",
+    "packageFolder": "org/jhipster/cms",
+    "authenticationType": "xauth",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "useSass": false,
+    "buildTool": "maven",
+    "frontendBuilder": "gulp",
+    "enableTranslation": false,
+    "enableSocialSignIn": false,
+    "rememberMeKey": "80fc3bd9b8ebce154b46412412c15fa14d4c1a97",
+    "testFrameworks": [
+      "cucumber"
+    ]
+  }
+}
